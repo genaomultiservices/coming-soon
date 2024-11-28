@@ -17,7 +17,8 @@ export default function Home() {
         alt="shapes"
         width={0}
         height={0}
-        className="absolute w-screen h-screen left-24 bottom-24 animate-blob2"
+        sizes="100vw"
+        className="absolute h-screen left-24 bottom-24 animate-blob2"
       />
       <Image
         src="/images/logo.png"
@@ -37,7 +38,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-5">
+      <div className="absolute bottom-10">
         <ul className="flex space-x-3">
           <li>
             <Link href="https://www.instagram.com/genaomss/profilecard/?igsh=MWh5cW96NWZ4bGZqeg=="
