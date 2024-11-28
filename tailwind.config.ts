@@ -1,13 +1,20 @@
-module.exports = {
-  mode: "jit",
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: 'media', // or 'media' or 'class'
+import type { Config } from "tailwindcss";
+
+export default {
+  darkMode: ["class"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
-    backgroundImage: {
-      hero:
-        "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
-    },
     extend: {
+      colors: {
+        secondaryBase: "#8432b0",
+      },
+      backgroundImage: {
+        "gradient-cover": "linear-gradient(90.21deg, rgba(184, 180, 172, 0.5) -5.91%, rgba(166, 162, 154, 0.5) 111.58%)"
+      },
       animation: {
         blob: "blob 7s infinite",
         blob2: "blob2 10s infinite",
@@ -48,6 +55,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [],
-};
+} satisfies Config;

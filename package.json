@@ -1,40 +1,30 @@
 {
   "name": "coming-soon",
-  "desription": "Clean Coming Soon Template (Tailwind CSS, NextJs & HTML5)",
+  "author": "Giordano Plasencia",
+  "desription": "Coming Soon Page for Genao Multiservices",
   "version": "1.0.0",
-  "keywords": [
-    "coming soon",
-    "tailwind",
-    "tailwindcss",
-    "nextjs",
-    "html"
-  ],
-  "author": "Themeptation",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "type-check": "tsc"
+    "lint": "next lint"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.15.0",
-    "eslint-config-next": "^15.0.3",
-    "next": "latest",
-    "postcss": "^8.4.49",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sharp": "^0.33.5",
-    "tailwind-merge": "^2.5.4",
-    "tailwindcss-animate": "^1.0.7"
+    "lucide-react": "^0.462.0",
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.0.3",
+    "postcss": "^8.4.49",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
