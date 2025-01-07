@@ -6,7 +6,7 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children, title = "Coming Soon para Genao Multiservices" }: Props) => (
   <div className="relative min-h-screen flex flex-col justify-center items-center bg-gradient-cover bg-cover">
     <Head>
       <title>{title}</title>
