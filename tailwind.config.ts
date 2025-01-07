@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         secondaryBase: "#8432b0",
+        secondaryBase2: "#87ab40",
       },
       backgroundImage: {
         "gradient-cover": "linear-gradient(90.21deg, rgba(184, 180, 172, 0.5) -5.91%, rgba(166, 162, 154, 0.5) 111.58%)"
